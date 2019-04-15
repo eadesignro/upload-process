@@ -1,0 +1,32 @@
+{
+    "name": "lmiculescu/upload-process",
+    "description": "Library that provides upload change support.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Lucian Miculescu",
+            "email": "lmiculescu@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "suggest": {
+        "ext-xdebug": "^2.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LucianMiculescu\\": "src/"
+        }
+    }
+}
